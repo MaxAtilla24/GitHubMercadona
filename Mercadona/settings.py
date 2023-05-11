@@ -83,11 +83,11 @@ WSGI_APPLICATION = 'Mercadona.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': env('DB_NAME'),
-        'USER':env('DB_USER'),
-        'PASSWORD':env('DB_PASSWORD'),
-        'HOST': env('DB_HOST'),
-        'PORT':env('DB_PORT'),
+        'NAME': 'railway',
+        'USER':'postgres',
+        'PASSWORD':'8kSBLSxAtJGYUkSgro24',
+        'HOST': 'containers-us-west-154.railway.app',
+        'PORT':'6342',
     }
 }
 
